@@ -1,0 +1,2 @@
+Despues cambiar las funciones init de los states para que sean bool y mostrar una imagen
+diciendo "Reset the game" cuando falle.

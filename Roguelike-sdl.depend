@@ -1,0 +1,626 @@
+# depslib dependency file v1.0
+1615728020 source:c:\users\sergio alarcon\documents\roguelike-sdl\level.cpp
+	"level.hpp"
+	<iostream>
+	<algorithm>
+
+1615711659 c:\users\sergio alarcon\documents\roguelike-sdl\level.hpp
+	<vector>
+	<utility>
+	<string>
+	<random>
+
+1623652885 source:c:\users\sergio alarcon\documents\roguelike-sdl\main.cpp
+	<iostream>
+	<vector>
+	<chrono>
+	"src/gameEngine/gameEngine.hpp"
+	"src/gameEngine/introState.hpp"
+
+1616229003 c:\users\sergio alarcon\documents\roguelike-sdl\generator\level.hpp
+	<vector>
+	<utility>
+	<string>
+	<random>
+
+1616258078 source:c:\users\sergio alarcon\documents\roguelike-sdl\generator\level.cpp
+	"level.hpp"
+	<iostream>
+	<algorithm>
+
+1617754782 c:\users\sergio alarcon\documents\roguelike-sdl\generator\generator.hpp
+	<vector>
+	<utility>
+	<string>
+	<random>
+
+1617754795 source:c:\users\sergio alarcon\documents\roguelike-sdl\generator\generator.cpp
+	"generator.hpp"
+	<iostream>
+	<algorithm>
+
+1616341697 source:c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\gameengine.cpp
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	"gameEngine.hpp"
+	"gameState.hpp"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\begin_code.h
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\close_code.h
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\users\sergio alarcon\documents\sdl_games\libraries\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\sergio alarcon\documents\sdl_games\libraries\sdl_image\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1616774006 c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\gameengine.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+
+1616330091 c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\gamestate.hpp
+	"gameEngine.hpp"
+
+1616795606 source:c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\introstate.cpp
+	<stdio.h>
+	"introState.hpp"
+	"playState.hpp"
+
+1616326313 c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\introstate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"gameState.hpp"
+
+1620283633 c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\playstate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"gameState.hpp"
+
+1616795834 source:c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\menustate.cpp
+	<stdio.h>
+	"menuState.hpp"
+
+1616423111 c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\menustate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"gameState.hpp"
+
+1620290864 source:c:\users\sergio alarcon\documents\roguelike-sdl\gameengine\playstate.cpp
+	"playState.hpp"
+	<stdio.h>
+	<chrono>
+	"../generator/generator.hpp"
+	"menuState.hpp"
+	"introState.hpp"
+	"../gfx/texture.hpp"
+	"../gfx/tiles.hpp"
+	"../entities/player.hpp"
+
+1616410642 c:\users\sergio alarcon\documents\roguelike-sdl\generator\tile.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"../common/texture.hpp"
+
+1616351357 c:\users\sergio alarcon\documents\roguelike-sdl\common\texture.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"../gameEngine/gameEngine.hpp"
+
+1620290983 c:\users\sergio alarcon\documents\roguelike-sdl\entities\player.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"../gfx/tiles.hpp"
+
+1616412969 source:c:\users\sergio alarcon\documents\roguelike-sdl\common\collision.cpp
+	"collision.hpp"
+
+1616412960 c:\users\sergio alarcon\documents\roguelike-sdl\common\collision.hpp
+	<SDL.h>
+	"../generator/tile.hpp"
+
+1616351357 source:c:\users\sergio alarcon\documents\roguelike-sdl\common\texture.cpp
+	"texture.hpp"
+
+1620290983 source:c:\users\sergio alarcon\documents\roguelike-sdl\entities\player.cpp
+	"player.hpp"
+
+1616353693 source:c:\users\sergio alarcon\documents\roguelike-sdl\generator\tile.cpp
+	"tile.hpp"
+	"../common/collision.hpp"
+
+1620279534 c:\users\sergio alarcon\documents\roguelike-sdl\gfx\texture.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"../gameEngine/gameEngine.hpp"
+
+1620291025 c:\users\sergio alarcon\documents\roguelike-sdl\gfx\tiles.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"texture.hpp"
+
+1620288601 source:c:\users\sergio alarcon\documents\roguelike-sdl\gfx\texture.cpp
+	"texture.hpp"
+
+1620287977 source:c:\users\sergio alarcon\documents\roguelike-sdl\gfx\tiles.cpp
+	"tiles.hpp"
+
+1623640017 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\gameengine.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<vector>
+
+1616326313 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\introstate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"gameState.hpp"
+
+1616330091 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\gamestate.hpp
+	"gameEngine.hpp"
+
+1623896461 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\entities\player.cpp
+	"player.hpp"
+
+1623893135 c:\users\sergio alarcon\documents\roguelike-sdl\src\entities\player.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"../gfx/tiles.hpp"
+
+1623896420 c:\users\sergio alarcon\documents\roguelike-sdl\src\gfx\tiles.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"texture.hpp"
+
+1623639334 c:\users\sergio alarcon\documents\roguelike-sdl\src\gfx\texture.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"../gameEngine/gameEngine.hpp"
+	<SDL_ttf.h>
+
+1623645426 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\gameengine.cpp
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"gameEngine.hpp"
+	"gameState.hpp"
+
+1621249105 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\introstate.cpp
+	<stdio.h>
+	"introState.hpp"
+	"playState.hpp"
+
+1623872137 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\playstate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"gameState.hpp"
+
+1621249150 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\menustate.cpp
+	<stdio.h>
+	"menuState.hpp"
+
+1616423111 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\menustate.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"gameState.hpp"
+
+1623892223 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\playstate.cpp
+	"playState.hpp"
+	<stdio.h>
+	<chrono>
+	"../generator/generator.hpp"
+	"menuState.hpp"
+	"introState.hpp"
+	"../gfx/texture.hpp"
+	"../gfx/tiles.hpp"
+	"../entities/player.hpp"
+	"timer.hpp"
+	<sstream>
+
+1623647321 c:\users\sergio alarcon\documents\roguelike-sdl\src\generator\generator.hpp
+	<vector>
+	<utility>
+	<string>
+	<random>
+
+1621249677 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\generator\generator.cpp
+	"generator.hpp"
+	<iostream>
+	<algorithm>
+
+1623639394 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gfx\texture.cpp
+	"texture.hpp"
+
+1623896867 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gfx\tiles.cpp
+	"tiles.hpp"
+
+1621251716 c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\timer.hpp
+	<SDL.h>
+
+1621251913 source:c:\users\sergio alarcon\documents\roguelike-sdl\src\gameengine\timer.cpp
+	"timer.hpp"
+
+1547325881 c:\users\sergio alarcon\documents\sdl_games\libraries\sdl_ttf\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+

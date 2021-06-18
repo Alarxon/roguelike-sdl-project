@@ -1,0 +1,69 @@
+//General
+1.- Pintar el nivel de STONE
+2.- Genear los cuartos (el vector room_list)
+3.- Conectar los cuartos (el vector corridor_list)
+4.- Si se pide conexiones random se hacen (el vector corridor_list)
+4.- Si se pide generar "spurs", que son random conexiones entre un room que existe
+    y uno que no existen de tamaño 1 X 1
+5.- Pintar los rooms generados (room_list) en el nivel (level) con FLOOR
+6.- Pintar los cooredores generados (corridor_list) en el nivel (level) con FLOOR
+7.- Pintar las paredes (lo que rodea a los rooms y cooredores) en en nivel (level) con WALL
+
+//Especifico
+1.- Se llama a gen_level, la funcion "principal" del generador con los valores:
+    w: width del level, 
+    h: height del level, 
+    max_r: el maximo numero de rooms,
+    min_r_xy: minimo x,y que debe tener el room,
+    max_r_xy: maximo x,y que debe tener el room,
+    r_overlap: si los rooms se pueden overlap o no
+    random_con: si se quierne random conexiones entre 1 room y otro
+    random_spur: si se quiere random conexiones entre 1 room y la nada
+2.- mt19937 es Mersenne Twister 19937 generator, es un pseudo random generador
+    al cual se le debe de dar una seed (en este caso se usa el tiempo actual)
+3.- Si los parametros dados no estan dentro de los limites se usan los default
+4.- Se rellena el vector level con STONE
+5.- Se da un valor para las maximas iteraciones (max_iters) en las que se generaran
+    los rooms. En este caso max_Rooms * 5. La razon de porque no es solo max_Rooms es porque
+    si no se permiten overlaps, siempre hay la posibilidad de que al generar un room haga overlap
+    sobre otro y entonces se tiene que descartar y ahi se perderia una iteracion. Em el
+    paso siguiente si checa por si acaso si ya se insertaron el numero maximo de rooms
+    y en ese caso terminan las iteraciones aunque todavia queden.
+**************************************************************************************************
+6.- Se entra al ciclo de las iteraciones. Y lo primero es generar un room con la funcion
+    gen_room()
+    6.1- Se genera un numero entre el minimo x,y y el maximo x,y (inclusivo) para el height del room
+    6.2- Se genera un numero entre el minimo x,y y el maximo x,y (inclusivo) para el width del room
+    6.3- Se genera un numero entre 1 y el width del nivel menos el width del room generado en el 6.2
+         y tambien menos 1 (porque es inclusivo)
+    6.4- Se genera un numero entre 1 y el height del nivel menos el height del room generado en el 6.1
+         y tambien menos 1 (porque es inclusivo)
+    6.5- Se regresa un vector de int de la siguiente forma [x, y, w, h]
+7.- Si se permite el overlap o si la lista de rooms esta vacia, entonces se inserta el room 
+    recien generado.
+8.- En caso de que no se permita el overlap o la lista no este vacia. Se genera un nuevo room
+    y este se le pasa a la funcion room_overlapping, si devuelve false se inserta si devuelve
+    true no.
+    8.1- Se asigan los valores individuales del room (x,y,w,h) a variables.
+    8.2- Con un ciclo se recorre todo los rooms ya insertados para ser comparados con el room
+    8.3- Da true si: x_room < (x_otro + w_otro) y x_otro  < (x_room + w_room)
+                   y y_room < (y_otro + h_otro) y y_otro < (y_room + h_room)
+         Esto significa que con esto se checa si el room esta dentro del otro room con el que
+         se le compara. El inicio de los ambos rooms debe de ser menor que el tamaño tootal
+         del otro room para que se solapen.
+    8.4- Si no, da false y no hay overlap
+9.- Si no hay overlap se inserta el room a la room_list
+10.- Se checa si la room_list ya tiene el maximo numeros de rooms permitidos. Si se cumple
+     se termina el ciclo. Si no, continua hasta que acaben las iteraciones
+
+***************************************************************************************************
+11.- Despues de ser generados se tienen que conectar los rooms (generar los corridors). Para esto
+     se recorre la room_list y se llama a la funcion join_rooms(room, room + 1)
+12.- La funcion join_rooms recibe 3 parametors, los 2 rooms a conectar y el tipo de conexion que
+     por default es "either".
+13.- Primero se juntan los 2 rooms en un solo vector<vector<int>> y este numero vector se tiene
+     que ordenar de menor a mayor por el valor de x (el primer valor del room)
+14.- Los valores x,y,w,h de ambos rooms se asigan a variables individuales. Tambien se obtiene
+     los valores de x,y final (donde termina el room, porque x,y normal solo es donde empieza) 
+     con (x + w -1) y (y + h - 1)
+15.- Se checa si los 2 room hacen overlap en x pero no en y. Si se cumple entonces se 
